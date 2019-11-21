@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Mix_Image" size="2048.000000 1365.000000" />
+    <ImageTarget name="Transport_Image" size="2048.000000 1365.000000" />
+    <ImageTarget name="Fam_Image" size="2048.000000 1536.000000" />
+    <ImageTarget name="Far_Image" size="2048.000000 1536.000000" />
+    <ImageTarget name="Pulverize_Image" size="2018.000000 1513.500000" />
+    <ImageTarget name="Catch_Image" size="2048.000000 1364.991943" />
+    <ImageTarget name="Nature_Test" size="2048.000000 1323.294067" />
+  </Tracking>
+</QCARConfig>

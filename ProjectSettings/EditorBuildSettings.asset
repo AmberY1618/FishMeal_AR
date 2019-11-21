@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 3613bed9262924e638e3938b3fa1c500
+  - enabled: 1
+    path: Assets/Scenes/scan1.unity
+    guid: c03622fdb98ab4e1a8cea52be8b38934
+  - enabled: 1
+    path: Assets/Scenes/catch.unity
+    guid: ac3e178eddd4b4c3995b77ed39b231a9
+  - enabled: 1
+    path: Assets/Scenes/scan2.unity
+    guid: 89276bb2bb2574296bb5dcf93dbdfc25
+  - enabled: 1
+    path: Assets/Scenes/pulverize.unity
+    guid: bc205169d6cb44f46946db8a06a1d01e
+  - enabled: 1
+    path: Assets/Scenes/scan3.unity
+    guid: f737879a874ca4dabbf2bef48d379251
+  - enabled: 1
+    path: Assets/Scenes/mix.unity
+    guid: a03c6e9fc5ff142ccb9296d51cabeeea
+  - enabled: 1
+    path: Assets/Scenes/scan4.unity
+    guid: c897809fb890b4afb8bc4c7aa0bb11db
+  - enabled: 1
+    path: Assets/Scenes/farm.unity
+    guid: 08f65be024ebd47998f0e7159548a4c4
+  - enabled: 1
+    path: Assets/Scenes/scan5.unity
+    guid: ef6dee6d42995471a87c9b2bf9aad7a9
+  - enabled: 1
+    path: Assets/Scenes/harvest.unity
+    guid: c45fc13b2cd4a4d8fbb61037e1afddbc
+  - enabled: 1
+    path: Assets/Scenes/scan6.unity
+    guid: 66de2b341bcb047b8a7e3be2ac5a616c
+  - enabled: 1
+    path: Assets/Scenes/consume.unity
+    guid: 11523dabcd3c645cf8de8698b67d96ae
+  m_configObjects: {}
