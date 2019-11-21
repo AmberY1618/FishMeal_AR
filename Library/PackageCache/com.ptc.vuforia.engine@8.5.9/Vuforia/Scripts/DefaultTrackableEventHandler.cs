@@ -18,8 +18,8 @@ using Vuforia;
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
 
-	public static bool Detected;
-
+	public static bool Detected; //This boolean is used to keep track of the image target and to control the video progress bar
+    
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;

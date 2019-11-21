@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Author: Xiaomeng(Amber) Yuan
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,10 +21,8 @@ public class NavBarSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("updating!");
 
-
-        //updating the hash set
+        //updating the hash set of scenes visited
         if (SceneManager.GetActiveScene().name == "StartScreen")
         {
             SceneNames = new HashSet<string>();
@@ -61,7 +61,7 @@ public class NavBarSystem : MonoBehaviour
 
 
 
-
+        //update the navigation buttons according to the scenes visited
         if (SceneNames.Contains("catch"))
         {
             GameObject.Find("CatchButton").GetComponent<Button>().interactable = true;

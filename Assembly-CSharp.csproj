@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonController.cs" />
-    <Compile Include="Assets\Scripts\HarleyRotate.cs" />
     <Compile Include="Assets\Scripts\ImageTargetSetting.cs" />
     <Compile Include="Assets\Scripts\loadSceneAfterVideo.cs" />
     <Compile Include="Assets\Scripts\LoadSceneString.cs" />

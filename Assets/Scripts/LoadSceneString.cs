@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//Author: Xiaomeng(Amber) Yuan
+//This script load the scene specified by a given string
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

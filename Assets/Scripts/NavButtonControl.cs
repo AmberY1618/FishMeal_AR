@@ -10,12 +10,14 @@ public class NavButtonControl : MonoBehaviour
 
     private void Awake()
     {
+        //to keep the control object alive so the status stays trackable
         DontDestroyOnLoad(this.gameObject);
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        //disable all navigation buttons at the beginning
         if (SceneManager.GetActiveScene().name == "StartScreen")
         {
             disableAllButtons();
@@ -29,18 +31,11 @@ public class NavButtonControl : MonoBehaviour
     void Update()
     {
 
-        print("The scene name is " + SceneManager.GetActiveScene().name);
+        print("The scene name is " + SceneManager.GetActiveScene().name); //to know the current scene
 
-        //if in startScreen, reset everything
-        //if (SceneManager.GetActiveScene().name == "StartScreen")
-        //{
-        //    disableAllButtons();
-        //    //this.gameObject.SetActive(false);
-        //    setAllButtonTextWhite();
 
-        //    print("at start, pulverizeButton is: " + GameObject.Find("PulverizeButton").GetComponent<Button>().IsInteractable());
-        //}
 
+        //setting the navigation buttons
         if (SceneManager.GetActiveScene().name == "catch")
         {
             print("we are in catch");
@@ -94,7 +89,7 @@ public class NavButtonControl : MonoBehaviour
 
 
 
-
+    //Make all navigation buttons not interactable
     public void disableAllButtons()
     {
         GameObject[] navButtons = GameObject.FindGameObjectsWithTag("NavButton");
@@ -104,6 +99,7 @@ public class NavButtonControl : MonoBehaviour
         }
     }
 
+    //Set all the navigation button texts color white
     public void setAllButtonTextWhite()
     {
         GameObject[] buttonTextArray = GameObject.FindGameObjectsWithTag("buttonText");
